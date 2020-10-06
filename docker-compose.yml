@@ -35,8 +35,8 @@ services:
         ports:
             - 8002:80
         environment:
-            MYSQL_USER: user
-            MYSQL_PASSWORD: test
+            MYSQL_USER: phpmyadmin
+            MYSQL_PASSWORD: Ghjuth67
             MYSQL_ROOT_PASSWORD: test
 volumes:
     persistent:
